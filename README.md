@@ -19,7 +19,7 @@ for fund i in quarter t. Where TNA is total net assets and R is the fund return.
 Step 4 calculats omega_hat for each quarter. Omega_hat is the covariance matrix transformed from percentage fund flows, calculated as follows:  
 ![img](http://latex.codecogs.com/svg.latex?%5Chat%7B%5COmega%7D_%7Bt%7D%3Ddiag%28TNA_%7Bt%7D%29%5COmega%5E%7B%5C%25%7D_%7Bt%7Ddiag%28TNA_%7Bt%7D%29)
 ### Step 5   
-Finally, stock-level fragility is estimated by taking the diagnal value of Gt:   
+Finally, stock-level fragility is estimated by taking the diagonal value of Gt:   
 ![img](http://latex.codecogs.com/svg.latex?G_t%3DW%27_t%5Chat%7B%5COmega%7D_%7Bt%7DW_t)    
 where Wt is a stock-fund matrix that measures the stock holdings for each fund at quarter t. Last, I scale the value by squared market capitalization value to get the stock price fragility.
 
